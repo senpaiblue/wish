@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+  background:#0E0D0D
+}
+
+.lato {
+  font-family: var(--font-lato);
+}
+
+.cursor{
+  background-color:#B5B5B5;
+  height:32px;
+  width: 32px;
+  border-radius: 50%;
+  position:fixed;
+  top:0;
+  left:0;
+  pointer-events: none;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
